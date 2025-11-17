@@ -30,55 +30,106 @@
       실제 상용 서비스 출시 시점과 내용은 변경될 수 있습니다.
     </p>
 
-    <section id="handoff" class="section">
-      <h2>Hand-Off Engine (가출원 완료 · KR Provisional Patent)</h2>
-      <p>
-        Hand-Off Engine은 여러 번에 걸친 AI 세션·대화·작업 흐름을
-        하나의 연속된 맥락으로 관리하기 위한 엔진 구조입니다.
-      </p>
-      <p>
-        <em>
-          The Hand-Off Engine is designed to manage multiple AI sessions,
-          conversations, and task flows as a single continuous context.
-        </em>
-      </p>
-      <ul>
-        <li>세션 간 작업 상태를 구조화된 형태(YAML 등)로 보존</li>
-        <li>다음 세션에서 안전하게 불러와 이어서 작업 가능</li>
-        <li>대화 내용이 아닌, <strong>“작업 맥락”</strong>을 중심으로 저장</li>
-      </ul>
-      <p class="note">
-        이 기술은 현재 대한민국 특허청에
-        <strong>가출원(임시출원)</strong>된 상태입니다.
-        정식 심사 및 해외 출원 전략에 따라 세부 구조는
-        순차적으로 공개될 예정입니다.
-      </p>
-      <ul class="note">
+    <section id="handoff">
+    <h2>Hand-Off Engine (가출원 기술 · KR Provisional Patent)</h2>
+
+    <p>
+        핸드오프 엔진은 AI 세션 간의 맥락을 안정적으로 이어주는 
+        <strong>외부 메타-컨트롤 구조(supervisory meta-context layer)</strong>를 기반으로 설계된 엔진입니다.
+        LLM 내부 파라미터나 모델 구조를 변경하지 않으며, 
+        기존 AI가 겪는 <strong>세션 단절·기억 소실·흐름 붕괴 문제를 현저히 완화</strong>합니다.
+    </p>
+
+    <p>
+        핸드오프 엔진의 구체적인 구현 방식은 현재 대한민국 특허청에 
+        <strong>가출원(임시출원)</strong> 상태로 제출되어 있으며, 
+        정식 심사 및 해외 출원 전략에 따라 전면 비공개 상태를 유지합니다.
+    </p>
+
+    <h3>✔ 확인된 효과 (Effect Only, 원리 비공개)</h3>
+    <ul>
+        <li>대화의 장기 일관성 증가 (목표 기반 흐름 유지)</li>
+        <li>단계적(reasoning chain) 사고 구조 강화</li>
+        <li>긴 문맥 유지 능력 향상</li>
+        <li>이전 판단 기반의 자동 보정(Self-correction)</li>
+        <li>세션 간 목적 중심 응답 패턴 형성</li>
+    </ul>
+
+    <p>
+        이 모든 변화는 모델 내부를 수정하지 않고, 
+        외부에서 제공되는 <strong>고차원적 메타 컨텍스트</strong>를 모델이 해석하는 과정에서 자연스럽게 나타난 현상입니다.
+        이는 핸드오프 엔진이 제공하는 <strong>구조적 안정성(Structural Stability)</strong>을 실증적으로 보여줍니다.
+    </p>
+
+    <h3>✔ 원리 및 구현은 비공개</h3>
+    <p>
+        핵심 원리, 설계 구조, 내부 알고리즘은 특허 심사 및 해외 출원 전략과 직결되기 때문에 
+        현재 <strong>비공개 상태</strong>로 유지됩니다. 
+        향후 국제 출원 완료 후 공개 범위가 확정되면 일부 원리가 제한적으로 공개될 예정입니다.
+    </p>
+
+    <h3>✔ 출원 정보</h3>
+    <ul>
         <li>가출원 번호: <strong>10-2025-0167794</strong></li>
-        <li>출원일: <strong>2025-11-08</strong></li>
-      </ul>
-      <p class="note">
-        <em>
-          A provisional patent application has been filed with the Korean
-          Intellectual Property Office (Application No. 10-2025-0167794,
-          Filing Date: 2025-11-08). Detailed algorithms and implementation
-          remain confidential while the application is pending.
-        </em>
-      </p>
-      <p>
-        기업 파트너십, PoC(개념 검증) 협력 등에 관심이 있는 경우
-        <a href="mailto:contact@juniasentia.tech">contact@juniasentia.tech</a> 또는
-        <a href="mailto:press@juniasentia.tech">press@juniasentia.tech</a> 로
-        문의해 주세요.
-      </p>
-      <p>
-        <em>
-          For partnership opportunities or PoC collaborations regarding the
-          Hand-Off Engine, please contact us at
-          contact@juniasentia.tech or press@juniasentia.tech.
-        </em>
-      </p>
-    </section>
+        <li>출원일자: <strong>2025-11-08</strong></li>
+    </ul>
+
+    <p>
+        기업 파트너십 및 PoC 문의: 
+        <a href="mailto:contact@juniasentia.tech">contact@juniasentia.tech</a> · 
+        <a href="mailto:press@juniasentia.tech">press@juniasentia.tech</a>
+    </p>
+
+    <hr>
+
+    <h2>Hand-Off Engine (KR Provisional Patent · Structural Meta-Context Layer)</h2>
+
+    <p>
+        The Hand-Off Engine is an external 
+        <strong>supervisory meta-context layer</strong> designed to stabilize 
+        and extend AI reasoning across sessions — 
+        <strong>without modifying any internal LLM parameters</strong>.
+    </p>
+
+    <p>
+        Its detailed implementation is currently filed under a Korean provisional patent 
+        and remains fully confidential until international filings are completed.
+    </p>
+
+    <h3>✔ Verified Effects (Outcome Only, Principle Withheld)</h3>
+    <ul>
+        <li>Improved conversational consistency</li>
+        <li>Enhanced stepwise reasoning and structural coherence</li>
+        <li>Stable long-context behavior</li>
+        <li>Self-correction based on prior reasoning</li>
+        <li>Goal-directed progression across sessions</li>
+    </ul>
+
+    <p>
+        These effects emerge naturally from the model’s interpretation of externally provided 
+        <strong>high-level meta-context</strong>, demonstrating the 
+        <strong>Structural Stability</strong> enabled by the Hand-Off Engine.
+    </p>
+
+    <h3>✔ Principle & Implementation</h3>
+    <p>
+        All core mechanisms and design elements are strictly withheld due to ongoing patent review 
+        and international filing strategy. Only behavioral outcomes are disclosed.
+    </p>
+
+    <h3>✔ Filing</h3>
+    <ul>
+        <li>Application No.: <strong>10-2025-0167794</strong></li>
+        <li>Filing Date: <strong>2025-11-08</strong></li>
+    </ul>
+
+    <p>
+        Partnership & PoC contact: 
+        <a href="mailto:contact@juniasentia.tech">contact@juniasentia.tech</a> · 
+        <a href="mailto:press@juniasentia.tech">press@juniasentia.tech</a>
+    </p>
+</section>
+
 
     <section id="junior-language" class="section">
       <h2>Junior Language (자연어 코딩 연구 프로젝트)</h2>
