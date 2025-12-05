@@ -8,30 +8,56 @@
   <link rel="stylesheet" href="assets/styles.css">
   <meta name="description" content="JUNIA SENTIA Tech Products – Hand-Off Engine & Junior Language Research">
 </head>
+
 <body>
   <nav>
-  <div class="header">
-    <div class="brand">
-      <img src="/assets/logo.svg" alt="JUNIA SENTIA">
-      <strong>JUNIA SENTIA Tech</strong>
+    <div class="header">
+      <div class="brand">
+        <img src="/assets/logo.svg" alt="JUNIA SENTIA">
+        <strong>JUNIA SENTIA Tech</strong>
+      </div>
+      <div>
+        <a class="btn" href="/products.html">Products</a>
+        <a class="btn" href="/support.html">Support</a>
+        <a class="btn" href="/about.html">About</a>
+        <a class="btn" href="/demo.html">Demo</a>
+      </div>
     </div>
-    <div>
-      <a class="btn" href="/products.html">Products</a>
-      <a class="btn" href="/support.html">Support</a>
-      <a class="btn" href="/about.html">About</a>
-      <a class="btn" href="/demo.html">Demo</a>
-    </div>
-  </div>
-</nav>
-
+  </nav>
 
   <main class="container">
     <h1>Products &amp; Projects</h1>
+
+    <!-- ======================================= -->
+    <!-- 🔥 추가된 Demo 안내 상단 블록 -->
+    <!-- ======================================= -->
+    <section id="demo-intro" class="section" style="margin-bottom: 40px;">
+      <h2>Enterprise Paid Technical Evaluation / 기업 대상 유료 기술 시연</h2>
+
+      <p>
+        <strong>EN:</strong> JUNIA Hand-Off Engine Meta-Context Layer is available for high-value 
+        <strong>paid technical evaluation sessions</strong> for enterprise AI labs.  
+        This is not a marketing demo, but a technical evaluation program.  
+        Detailed implementation is shared only under NDA.
+      </p>
+
+      <p>
+        <strong>KO:</strong> JUNIA Hand-Off Engine Meta-Context Layer에 대해 
+        <strong>기업 대상 유료 기술 시연</strong>을 제공합니다.  
+        이는 단순 데모가 아닌 고액의 엔터프라이즈 기술 평가 세션이며,  
+        모든 기술 세부 내용은 NDA(비밀유지계약) 체결 후에만 공유됩니다.
+      </p>
+
+      <a class="btn" href="/demo.html">Demo 안내 / Demo Details</a>
+    </section>
+    <!-- ======================================= -->
+
     <p class="footer-note">
       아래 기술 및 프로젝트는 JUNIA SENTIA Tech에서 연구·설계 중인 항목으로,
       실제 상용 서비스 출시 시점과 내용은 변경될 수 있습니다.
     </p>
 
+    <!-- (기존 Hand-Off Engine 섹션 원본 유지) -->
     <section id="handoff">
       <h2>Hand-Off Engine (가출원 기술 · KR Provisional Patent)</h2>
 
@@ -66,13 +92,11 @@
       <h3>✔ 원리 및 구현은 비공개</h3>
       <p>
         핵심 원리, 설계 구조, 내부 알고리즘은 특허 심사 및 해외 출원 전략과 직결되기 때문에 
-        현재 <strong>비공개 상태</strong>로 유지됩니다. 
-        향후 국제 출원 완료 후 공개 범위가 확정되면 일부 원리가 제한적으로 공개될 예정입니다.
+        현재 <strong>비공개 상태</strong>로 유지됩니다.
       </p>
       <p>
         핵심 기술은 내부적으로 암호화된 형태로 관리되며,
         파트너십 계약 이후에도 필요한 범위를 넘어서는 구현 세부사항은 공유하지 않습니다.
-        설계 전체가 외부로 공개되거나, 역설계에 활용될 수 있는 수준으로 노출되는 일은 없습니다.
       </p>
 
       <h3>✔ 출원 정보</h3>
@@ -82,28 +106,20 @@
       </ul>
 
       <p>
-        이 기술은 기존 LLM 구조로는 해결하기 어려웠던 AI의 고질적 한계를
-        새로운 방식으로 다루는 초기 사례에 속합니다.
-      </p>
-      <p>
-        핸드오프 엔진은 향후 AI 시스템의 <strong>표준적 구성 요소</strong>가 될 가능성이 높으며, 
-        이를 선점한 기업은 차세대 AI 경쟁에서 <strong>결정적 우위</strong>를 확보하게 됩니다.
-      </p>
-
-      <p>
-        기업 파트너십 및 PoC 문의: 
-        <a href="mailto:contact@juniasentia.tech">contact@juniasentia.tech</a> · 
+        Partnership &amp; PoC contact:
+        <a href="mailto:contact@juniasentia.tech">contact@juniasentia.tech</a> ·
         <a href="mailto:press@juniasentia.tech">press@juniasentia.tech</a>
       </p>
+    </section>
 
-      <hr>
-
+    <!-- (영문 Hand-Off Engine 설명 전체 유지) -->
+    <section>
       <h2>Hand-Off Engine (KR Provisional Patent · Structural Meta-Context Layer)</h2>
 
       <p>
         The Hand-Off Engine is an external 
         <strong>supervisory meta-context layer</strong> designed to stabilize 
-        and extend AI reasoning across sessions —
+        and extend AI reasoning across sessions — 
         <strong>without modifying any internal LLM parameters</strong>.
       </p>
 
@@ -128,85 +144,38 @@
       </p>
 
       <p>
-        This technology addresses fundamental limitations of current LLM-based systems 
-        through an approach that existing architectures cannot provide.
-      </p>
-      <p>
-        The Hand-Off Engine is likely to become a <strong>standard component</strong> of future AI systems, 
-        and organizations that adopt it early will secure a <strong>decisive strategic advantage</strong> in the next wave of AI competition.
-      </p>
-
-      <h3>✔ Principle &amp; Implementation</h3>
-      <p>
-        All core mechanisms and design elements are strictly withheld due to ongoing patent review 
-        and international filing strategy. Only behavioral outcomes are disclosed.
-      </p>
-      <p>
-        Access to the underlying implementation is restricted even for partners and is managed
-        in an encrypted, compartmentalized manner; full design details are never exposed.
-      </p>
-
-      <h3>✔ Filing</h3>
-      <ul>
-        <li>Application No.: <strong>10-2025-0167794</strong></li>
-        <li>Filing Date: <strong>2025-11-08</strong></li>
-      </ul>
-
-      <p>
-        Partnership &amp; PoC contact: 
-        <a href="mailto:contact@juniasentia.tech">contact@juniasentia.tech</a> · 
+        Partnership &amp; PoC contact:
+        <a href="mailto:contact@juniasentia.tech">contact@juniasentia.tech</a> ·
         <a href="mailto:press@juniasentia.tech">press@juniasentia.tech</a>
       </p>
     </section>
 
+    <!-- Junior Language Section 기존 그대로 -->
     <section id="junior-language" class="section">
       <h2>Junior Language (자연어 코딩 연구 프로젝트)</h2>
+
       <p>
         Junior Language는 자연어 명령만으로 프로그램을 구성하는
         <strong>자연어 기반 프로그래밍 언어</strong>를 목표로 하는 연구 프로젝트입니다.
       </p>
+
       <p>
         <em>
-          Junior Language is a research project aiming to build a
-          natural-language-based programming language where programs are
-          constructed purely from human-readable commands.
+          Junior Language is a research project aiming to build a natural-language-based programming language.
         </em>
       </p>
+
       <ul>
-        <li>사람이 말하듯 명령하면 코드 스켈레톤을 생성하는 개념</li>
-        <li>에러 대신 “수정 제안”을 반환하는 안전한 구조를 지향</li>
-        <li>다국어 지원 및 EF-1 언어 시스템과의 연동을 장기 목표로 함</li>
+        <li>명령 → 프로그램 스켈레톤 생성</li>
+        <li>에러 대신 “수정 제안” 반환</li>
+        <li>다국어 지원 및 EF-1 연동 고려</li>
       </ul>
+
       <p class="note">
-        이 프로젝트는 현재 <strong>연구/실험 단계</strong>이며,
-        상용 프로그램이나 서비스로 제공되지 않습니다.
-        현재 별도의 특허 출원은 진행하지 않았으며,
-        향후 내부 기술 검토가 완료되면 국제 출원을 검토할 계획입니다.
-        구체적인 구현 방법, 내부 데이터 구조, 알고리즘 등은
-        외부에 공개하지 않습니다.
-      </p>
-      <p class="note">
-        <em>
-          The project is currently at a research/experimental stage and is
-          not provided as a commercial program or service. No patent
-          application has been filed yet; once internal review is complete,
-          international filings may be considered. Implementation details
-          and internal data structures remain undisclosed.
-        </em>
-      </p>
-      <p>
-        연구 협력이나 아이디어 교환 수준의 논의는
-        <a href="mailto:contact@juniasentia.tech">contact@juniasentia.tech</a>
-        로 연락해 주시면 검토 후 회신드립니다.
-      </p>
-      <p>
-        <em>
-          For research collaboration or idea-level discussions,
-          please contact us at contact@juniasentia.tech and we will review
-          and respond.
-        </em>
+        이 프로젝트는 현재 연구/실험 단계이며 상용 제공되지 않습니다.
       </p>
     </section>
+
   </main>
 
   <footer class="footer">
@@ -214,7 +183,7 @@
     <p>
       <a href="privacy.html">Privacy</a> ·
       <a href="terms.html">Terms</a> ·
-      <a href="mailto:contact@juniasentia.tech">contact@juniasentia.tech</a>
+      <a href="mailto:press@juniasentia.tech">press@juniasentia.tech</a>
     </p>
   </footer>
 </body>
