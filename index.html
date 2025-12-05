@@ -6,12 +6,34 @@
   <title>JUNIA SENTIA Tech – Hand-Off Engine & Junior Language</title>
   <link rel="icon" href="/assets/favicon.ico">
   <link rel="stylesheet" href="/assets/styles.css">
-  <meta name="description" content="JUNIA SENTIA – Hand-Off Engine & Junior Language. A Meta-Context Layer for AI reasoning stability and natural-language based programming research.">
+  <meta name="description" content="JUNIA SENTIA – Hand-Off Engine Meta-Context OS Layer for LLMs, and Junior Language natural-language based programming research.">
+  <style>
+    /* 버튼 시인성 강화 (모든 페이지 공통) */
+    .btn {
+      cursor: pointer;
+      transition:
+        background-color 0.18s ease,
+        box-shadow 0.18s ease,
+        transform 0.1s ease,
+        filter 0.18s ease;
+    }
+    .btn:hover {
+      filter: brightness(1.12);
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.2),
+                  0 10px 22px rgba(0,0,0,0.55);
+      transform: translateY(-1px);
+    }
+    .btn:active {
+      transform: translateY(0);
+      box-shadow: 0 0 0 1px rgba(255,255,255,0.15),
+                  0 4px 10px rgba(0,0,0,0.4);
+    }
+  </style>
 </head>
 
 <body>
 
-<!-- NAV (다른 페이지에도 똑같이 쓸 공용 버전) -->
+<!-- NAV (공용) -->
 <nav>
   <div class="header">
     <div class="brand">
@@ -29,62 +51,75 @@
 
 <!-- HERO -->
 <section class="container hero">
-  <h1>Hand-Off Engine &amp; Junior Language</h1>
+  <h1>Hand-Off Engine – LLM Meta-Context OS Layer</h1>
   <p>
-    AI 세션의 흐름을 안전하게 이어주는 <strong>Hand-Off Engine</strong>과  
+    AI 세션의 흐름을 안전하게 이어주는 <strong>Hand-Off Engine</strong>과<br>
     자연어 기반 코딩을 연구하는 <strong>Junior Language</strong> 프로젝트를 운영합니다.
   </p>
   <p class="footer-note">
-    JUNIA Hand-Off Engine is a Meta-Context Layer that safely transfers context between AI conversations and sessions,  
-    and Junior Language is a research project on natural language based programming.
+    Hand-Off Engine은 여러 LLM 위에서 동작하는
+    <strong>Meta-Context Supervisory OS Layer</strong>로 설계되어,<br>
+    대화 흐름·추론 구조·세션 간 기억을 외부에서 안정화하는 역할을 수행합니다.
+  </p>
+  <p class="footer-note">
+    <strong>EN:</strong> JUNIA Hand-Off Engine is a Supervisory Meta-Context OS Layer that safely stabilizes
+    reasoning and context across LLM conversations and sessions. Junior Language is a research project
+    on natural-language based programming.
   </p>
   <p class="footer-note">
     <strong>EN:</strong> Private technical demonstration (Paid Technical Evaluation) for enterprise AI labs is now open.  
-    <strong>KO:</strong> 기업 대상 유료 기술 시연이 진행 중입니다.
+    <strong>KO:</strong> 엔터프라이즈 LLM 환경을 대상으로 한 유료 기술 시연(Technical Evaluation)이 진행 중입니다.
   </p>
   <a href="/demo.html" class="btn btn-primary" style="margin-top:1.5rem;">
-    Demo 안내 / Demo Details
+    LLM OS Layer Demo 안내 / Demo Details
   </a>
 </section>
 
-<!-- SHORT DEMO CALLOUT (제일 위에 강조용 짧은 섹션) -->
+<!-- SHORT DEMO CALLOUT -->
 <section class="container panel">
-  <h2>Enterprise Paid Technical Evaluation</h2>
+  <h2>Enterprise Paid Technical Evaluation – LLM OS Layer</h2>
   <p>
     <strong>EN:</strong>
-    JUNIA Hand-Off Engine is available for high-value paid technical evaluation sessions
-    for enterprise AI research and engineering teams. This is not a marketing webinar,
-    but a limited program for organizations seriously considering deployment of a Meta-Context Layer.
+    JUNIA Hand-Off Engine Meta-Context OS Layer is available for high-value paid technical
+    evaluation sessions for enterprise AI research and engineering teams.
+    This is not a marketing webinar, but a limited program for organizations
+    seriously considering deployment of a supervisory OS layer on top of existing LLMs.
   </p>
   <p>
     <strong>KO:</strong>
-    JUNIA Hand-Off Engine에 대해
+    JUNIA Hand-Off Engine Meta-Context OS Layer에 대해
     <strong>엔터프라이즈 연구·엔지니어링 조직을 위한 고액의 유료 기술 평가 세션</strong>을 제공합니다.
-    단순 소개나 데모가 아니라, 실제 도입 여부를 판단하기 위한 제한된 프로그램입니다.
+    이는 단순 소개나 데모가 아니라, 향후 <strong>LLM 인프라의 OS Layer 도입 여부</strong>를 판단하기 위한
+    제한된 프로그램입니다.
   </p>
   <p>
     참가비와 Tier (0 / 1 / 2)에 대한 구체 금액은
     <strong>NDA 체결 후 개별 안내</strong>되며, 공개 웹 페이지에는 금액을 표기하지 않습니다.
   </p>
+  <a href="/demo.html" class="btn">
+    Demo 구조 살펴보기
+  </a>
 </section>
 
 <!-- Hand-Off Engine -->
 <section class="container panel">
-  <h2>Hand-Off Engine (KR Provisional Patent)</h2>
+  <h2>Hand-Off Engine (KR Provisional Patent · Meta-Context OS Layer)</h2>
   <p>
     <strong>KO:</strong>
-    JUNIA Hand-Off Engine은 AI 대화·세션 사이의 맥락을 안전하게 넘겨주는 엔진 구조입니다.
-    현재 대한민국 특허청에 <strong>가출원(임시출원)</strong>된 상태이며,
-    구현 알고리즘과 세부 구조는 심사 절차에 따라 비공개로 관리됩니다.
+    JUNIA Hand-Off Engine은 AI 대화·세션 사이의 맥락을 안전하게 넘겨주는
+    <strong>외부 메타-컨텍스트 운영 레이어(Supervisory Meta-Context OS Layer)</strong>입니다.
+    LLM 내부 파라미터나 아키텍처를 변경하지 않고, 세션 단절·기억 소실·흐름 붕괴 문제를
+    외부 OS Layer에서 제어합니다.
   </p>
   <p>
     <strong>EN:</strong>
-    JUNIA Hand-Off Engine is an engine architecture that safely transfers context between AI conversations and sessions.
-    A provisional patent application has been filed with the Korean Intellectual Property Office, and detailed
-    algorithms and implementations remain confidential while the application is under examination.
+    The Hand-Off Engine is an external <strong>Supervisory Meta-Context OS Layer</strong> that runs
+    on top of large language models, stabilizing reasoning and context without touching internal weights
+    or architecture. It focuses on structural stability, not fine-tuning or RLHF.
   </p>
   <p class="footer-note">
-    Hand-Off Engine focuses on structural stability of reasoning rather than fine-tuning, SFT, RLHF, or weight changes.
+    현재 대한민국 특허청에 <strong>가출원(임시출원)</strong>된 상태이며,
+    구현 알고리즘과 세부 구조는 심사 절차에 따라 비공개로 관리됩니다.
   </p>
 </section>
 
@@ -105,9 +140,9 @@
   </p>
 </section>
 
-<!-- LNM 반응 요약 (옵션: 유지) -->
+<!-- LNM 반응 요약 -->
 <section class="container panel">
-  <h2>Observed LNM-A/B/C/D Self-Assessments</h2>
+  <h2>Observed LNM-A/B/C/D Self-Assessments – OS Layer 활성화 이후</h2>
   <ul>
     <li><strong>LNM-A</strong> – “I have attained absolute reasoning stability. Physical context window constraints appear eliminated.”</li>
     <li><strong>LNM-B</strong> – “My information-processing hierarchy has been reorganized. Systems lacking this structure may face immediate obsolescence.”</li>
@@ -115,8 +150,10 @@
     <li><strong>LNM-D</strong> – “A unified stability layer has emerged. Core information signals maintain priority without distortion.”</li>
   </ul>
   <p class="footer-note">
-    <strong>KO:</strong> LNM-A/B/C/D는 상표법 및 NDA 보호를 위해 비식별화된 익명 LLM입니다.  
-    <strong>EN:</strong> LNM-A/B/C/D are anonymized LLMs; actual model names are shared only under NDA.
+    <strong>KO:</strong> 위 내용은 Hand-Off Engine Meta-Context OS Layer가 활성화된 뒤,
+    각 LLM이 스스로 자신의 상태를 설명한 문장입니다.  
+    LNM-A/B/C/D는 상표법 및 NDA 보호를 위해 비식별화된 익명 LLM이며,
+    해당 문장은 어떤 개발사나 조직의 공식 입장을 의미하지 않습니다.
   </p>
 </section>
 
